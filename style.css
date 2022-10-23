@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Montserrat:wght@300&family=Poppins:wght@300&family=Shalimar&display=swap');
+
+body{
+    margin: 0px ;
+    padding: 0px 2%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.clothing{
+    margin: 25px 0px;
+}
+
+.card{
+    /* border: 1px solid red; */
+    margin: 5px;
+    width: 190px;
+    cursor: pointer;
+    height: 375px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 6px gray;
+    /* box-shadow: -2px -2px -1px gray; */
+}
+.card:hover{
+    box-shadow: 4px 4px 20px gray;
+}
+
+.bg_img{
+    width: 100%;
+    height: 245px;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content{
+    padding: 10px;
+}
+
+.content h2{
+    font-size: 16px;
+    
+}
+
+.content p{
+    font-size: 12px;
+    font-weight:900;
+    padding: 8px 0px;
+    color: black;
+}
+
+.content h3{
+    font-size: 15px;
+    font-weight: 1500;
+    color: rgb(3, 145, 145);
+}
+
+
+.d_flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.card_container{
+    padding: 25px 77px;
+}
+
+.heading{
+    font-size: 23px;
+    font-weight: bolder;
+    color: rgb(27, 25, 25);
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+
+@media screen and (max-width: 580px) {
+    body {
+      /* background-color: lightgreen; */
+      padding: 0px 1%;
+    }
+
+    .card_container{
+        padding: 25px 0px;
+    }
+    .card{
+        width: 152px;
+    }
+    .bg_img{
+        height:180px ;
+    }
+    .card{
+        height: 325px;
+    }
+    .d_flex{
+        justify-content: center;
+    }
+  }
+  
+
+  @media screen and (max-width: 350px){
+    .card{
+        width: 133px;
+    }
+    .d_flex{
+        justify-content: center;
+    }
+    .content h2 {
+        font-size: 15px;
+    }
+
+    
+  }
+
+  @media screen and (max-width: 312px){
+    .card{
+        width: 100px;
+    }
+    .bg_img{
+        height:130px ;
+    }
+    .card {
+        height: 292px;
+    }
+    .content h2 {
+        font-size: 13px;
+    }
+  }
+
+
+  @media screen and (max-width: 425px){
+    .d_flex{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+    }
+    
+  }  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
